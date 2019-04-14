@@ -14,7 +14,7 @@ def oxford_comma(array)
     joined_array = array.join(", ")
     split_array = joined_array.split(" ")
     binding.pry
-    split_array.insert((array.length - 1), "and")
+    split_array.insert((array.length + 2), "and")
     split_array.join(" ")
   end
 end
