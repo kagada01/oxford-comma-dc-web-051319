@@ -13,7 +13,6 @@ def oxford_comma(array)
   else
     joined_array = array.join(", ")
     split_array = joined_array.split(" ")
-    binding.pry
     split_array.insert((array.length + 3), "and")
     split_array.join(" ")
   end
