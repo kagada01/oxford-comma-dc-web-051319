@@ -13,6 +13,6 @@ def oxford_comma(array)
   else
     array.join(", ")
     array.insert((array.length - 1), "and")
-    puts array
+    return array
   end
 end
